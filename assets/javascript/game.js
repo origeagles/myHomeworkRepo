@@ -11,6 +11,7 @@ var keyWords = ["stark", "banner", "thor", "rodgers", "groot", "parker", "vision
 console.log(keyWords)
 
 // Generate random word to guess//
-wordChosen = Math.floor(Math.random(keyWords) * keyWords.length)
+wordChosen = [Math.floor(Math.random(keyWords) * keyWords.length)];
+
 console.log(wordChosen)
 
