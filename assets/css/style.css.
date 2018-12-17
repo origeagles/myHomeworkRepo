@@ -1,0 +1,8 @@
+body{
+  background-color: rgb(179, 240, 255);
+  background-blend-mode: luminosity;
+}
+
+h1 {
+  font-family: 'Slackey'
+}
