@@ -1,5 +1,5 @@
 //variables
-var wordChosen
+// var wordChosen
 var wordLength
 var wins = 0
 var losses = 0
@@ -12,7 +12,7 @@ console.log(keyWords)
 
 // Generate random word to guess//
 // wordChosen = [Math.floor(Math.random(keyWords) * keyWords.length)];
-wordChosen = keyWords[Math.floor(Math.random() * keyWords.length)];
+const wordChosen = keyWords[Math.floor(Math.random() * keyWords.length)];
 
 console.log(wordChosen)
 
